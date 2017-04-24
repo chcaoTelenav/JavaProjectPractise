@@ -1,5 +1,5 @@
 # ide file
-.idea/*
+.idea/
 
 # compile file
-out/*
+out/

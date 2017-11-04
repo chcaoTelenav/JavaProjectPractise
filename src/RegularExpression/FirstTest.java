@@ -33,7 +33,7 @@ public class FirstTest {
 
 		sb.append( " ===== after using replaceAll ===>  ");
 
-		regEx  = "^(\\d+[-]?\\d*\\b)";
+		regEx  = "(\\d+[-]?\\d*\\b)";
 		query.replaceAll(regEx,"");
 		sb.append(query);
 
@@ -42,9 +42,9 @@ public class FirstTest {
 
 	public static void main(String[] args){
 
-		// String a = "언주로30길 26";
+		String a = "언주로30길 26";
 		// String a = "서울특별시 강남구 언주로30";
-		String a = "인천광역시 옹진군 덕적면 진리 산77-1";
+		// String a = "인천광역시 옹진군 덕적면 진리 산77-1";
 		// String a = "san 27-1, Seoul, South Korea";
 
 		System.out.println("dorNumber is: "+getFirstQueryTermNumeric(a));
